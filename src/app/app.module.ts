@@ -12,12 +12,16 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { TodoComponent } from './todo/todo.component';
+import { LoginComponent } from './login/login.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 //Step 4 - use Routes
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'todo', component: TodoComponent },
+  { path: '**', component: PagenotfoundComponent },
+  { path: 'login', component: LoginComponent },
 ];
 //Step 5 - use RouterModule
 @NgModule({
