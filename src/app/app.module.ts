@@ -20,8 +20,8 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'todo', component: TodoComponent },
-  { path: '**', component: PagenotfoundComponent },
   { path: 'login', component: LoginComponent },
+  { path: '**', component: PagenotfoundComponent },
 ];
 //Step 5 - use RouterModule
 @NgModule({

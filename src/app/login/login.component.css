@@ -1,0 +1,31 @@
+.container {
+  text-align: center;
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 35%;
+  margin: 13%;
+  height: 20%;
+}
+
+.container1 {
+  position: fixed;
+  top: 0%;
+  left: 22%;
+}
+
+.container-input {
+  margin-top: 10%;
+}
+
+.container-test2 {
+  margin: 1% 0% 0% 0%;
+}
+
+.login button {
+  margin: 3%;
+  border: 0;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  background-color: #3b5998;
+  width: 50%;
+}
